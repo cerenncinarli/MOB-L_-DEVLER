@@ -56,7 +56,7 @@ class _ProductSelectionPageState extends State<ProductSelectionPage> {
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
         backgroundColor: Colors.grey[800],
-        title: Text("Ürün Seçimi", style: TextStyle(color: Colors.orange)), // Başlık değiştirildi
+        title: Text("Ürün Seçimi", style: TextStyle(color: Colors.orange)),
       ),
       body: Column(
         children: [
@@ -147,7 +147,7 @@ class _ProductSelectionPageState extends State<ProductSelectionPage> {
                           ),
                           SizedBox(height: 8),
                           Text(
-                            "${products[index]["price"]} TL", // Fiyat TL olarak gösteriliyor
+                            "${products[index]["price"]} TL", 
                             style: TextStyle(
                               fontSize: 14,
                               color: isSelected ? Colors.white : Colors.grey[600],
